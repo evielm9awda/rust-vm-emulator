@@ -11,7 +11,7 @@ This project implements a simple virtual machine in Rust, featuring:
 
 ## Usage
 
-To build the project:
-cargo build
-To run the project:
-cargo run
+- To build the project:
+    cargo build
+- To run the project:
+    cargo run
