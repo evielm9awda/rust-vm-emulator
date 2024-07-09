@@ -1,0 +1,21 @@
+#[derive(Clone, Copy)]
+pub enum Instruction {
+    LoadImmediate(usize, i64),
+    Add(usize, usize, usize),
+    Sub(usize, usize, usize),
+    Mul(usize, usize, usize),
+    Div(usize, usize, usize),
+    And(usize, usize, usize),
+    Or(usize, usize, usize),
+    Xor(usize, usize, usize),
+    Not(usize, usize),
+    Jump(usize),
+    JumpIfZero(usize, usize),
+    JumpIfNotZero(usize, usize),
+    Call(usize),
+    Return,
+    Push(usize),
+    Pop(usize),
+    Print(usize),
+    Halt,
+}
